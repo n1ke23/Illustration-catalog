@@ -1,0 +1,14 @@
+{{#each this}}
+  <li>
+    <div class="video">
+      <video controls="controls" src="{{videos.tiny.url}}" height="400" width="800"></video>
+    </div>
+    <div class="list">
+      <p>Кол-во комментарий: {{comments}}</p>
+      <p>Кол-во загрузок: {{downloads}}</p>
+      <p>Продолжительность видео: {{duration}}</p>
+      <p>Кол-во лайков: {{likes}}</p>
+      <p>Кол-во просмотров: {{views}}</p>
+    </div>
+  </li>
+{{/each}}

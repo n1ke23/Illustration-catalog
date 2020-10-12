@@ -1,0 +1,15 @@
+.gallery-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.gallery-list li{
+  text-align: center;
+}
+.gallery-list li:not(:nth-child(even)) {
+  margin-right: 20px;
+}
+.gallery-list li:not(:nth-child(-n + 2)) {
+  margin-bottom: 20px;
+}
